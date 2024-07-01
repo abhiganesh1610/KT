@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421289CF2C2EB5E300CDE786 /* KT_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421289CE2C2EB5E300CDE786 /* KT_TaskApp.swift */; };
+		421289D32C2EB5E400CDE786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421289D22C2EB5E400CDE786 /* Assets.xcassets */; };
+		421289D72C2EB5E400CDE786 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421289D62C2EB5E400CDE786 /* Preview Assets.xcassets */; };
+		421289E12C2EB5E400CDE786 /* KT_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421289E02C2EB5E400CDE786 /* KT_TaskTests.swift */; };
+		421289EB2C2EB5E400CDE786 /* KT_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421289EA2C2EB5E400CDE786 /* KT_TaskUITests.swift */; };
+		421289ED2C2EB5E400CDE786 /* KT_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421289EC2C2EB5E400CDE786 /* KT_TaskUITestsLaunchTests.swift */; };
+		421289FB2C2EBC0E00CDE786 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421289FA2C2EBC0E00CDE786 /* LocationListView.swift */; };
+		421289FD2C2EBDA100CDE786 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421289FC2C2EBDA100CDE786 /* LocationManager.swift */; };
+		4255D6762C32BF99007A6FAB /* SignupView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4255D6752C32BF99007A6FAB /* SignupView1.swift */; };
+		4290B3D52C2F020A003CF809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290B3D42C2F020A003CF809 /* AppDelegate.swift */; };
+		4290B3D82C2FF306003CF809 /* HeaderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290B3D72C2FF306003CF809 /* HeaderTextView.swift */; };
+		4290B3DA2C2FF35D003CF809 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290B3D92C2FF35D003CF809 /* PrimaryButton.swift */; };
+		4290B3DC2C2FF3A7003CF809 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290B3DB2C2FF3A7003CF809 /* EmailTextField.swift */; };
+		4290B3DE2C2FF3CA003CF809 /* FieldErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290B3DD2C2FF3CA003CF809 /* FieldErrorView.swift */; };
+		4290B3E02C2FF3E5003CF809 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290B3DF2C2FF3E5003CF809 /* PasswordTextField.swift */; };
+		4290B3E62C2FFB5A003CF809 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290B3E52C2FFB5A003CF809 /* TextFields.swift */; };
+		4290B3E82C2FFC25003CF809 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290B3E72C2FFC25003CF809 /* UserManager.swift */; };
+		42AC86D22C2EDB270044E86B /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC86D12C2EDB270044E86B /* LocationModel.swift */; };
+		42AC86D52C2EE5110044E86B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC86D42C2EE5110044E86B /* LoginView.swift */; };
+		42AC86D82C2EEBD60044E86B /* SwitchUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC86D72C2EEBD60044E86B /* SwitchUserView.swift */; };
+		42D734182C2EFC320060270F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D734172C2EFC320060270F /* Constant.swift */; };
+		42D7341A2C2EFC6B0060270F /* CustomNavigationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D734192C2EFC6B0060270F /* CustomNavigationTitleView.swift */; };
+		42D7341C2C2EFCC60060270F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7341B2C2EFCC60060270F /* UserModel.swift */; };
+		42D7341E2C2F00FE0060270F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7341D2C2F00FE0060270F /* MapView.swift */; };
+		A258F76D3F7CA4738343110D /* Pods_KT_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F722C295B769DB9838F6367A /* Pods_KT_Task.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		421289DD2C2EB5E400CDE786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421289C32C2EB5E300CDE786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421289CA2C2EB5E300CDE786;
+			remoteInfo = KT_Task;
+		};
+		421289E72C2EB5E400CDE786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421289C32C2EB5E300CDE786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421289CA2C2EB5E300CDE786;
+			remoteInfo = KT_Task;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B02D6D890DF3E919455AA4C /* Pods-KT_Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KT_Task.release.xcconfig"; path = "Target Support Files/Pods-KT_Task/Pods-KT_Task.release.xcconfig"; sourceTree = "<group>"; };
+		421289CB2C2EB5E300CDE786 /* KT_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KT_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		421289CE2C2EB5E300CDE786 /* KT_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KT_TaskApp.swift; sourceTree = "<group>"; };
+		421289D22C2EB5E400CDE786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		421289D42C2EB5E400CDE786 /* KT_Task.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KT_Task.entitlements; sourceTree = "<group>"; };
+		421289D62C2EB5E400CDE786 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		421289DC2C2EB5E400CDE786 /* KT_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KT_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		421289E02C2EB5E400CDE786 /* KT_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KT_TaskTests.swift; sourceTree = "<group>"; };
+		421289E62C2EB5E400CDE786 /* KT_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KT_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		421289EA2C2EB5E400CDE786 /* KT_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KT_TaskUITests.swift; sourceTree = "<group>"; };
+		421289EC2C2EB5E400CDE786 /* KT_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KT_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		421289FA2C2EBC0E00CDE786 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		421289FC2C2EBDA100CDE786 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		4255D6752C32BF99007A6FAB /* SignupView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView1.swift; sourceTree = "<group>"; };
+		4290B3D42C2F020A003CF809 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4290B3D72C2FF306003CF809 /* HeaderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTextView.swift; sourceTree = "<group>"; };
+		4290B3D92C2FF35D003CF809 /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		4290B3DB2C2FF3A7003CF809 /* EmailTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		4290B3DD2C2FF3CA003CF809 /* FieldErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldErrorView.swift; sourceTree = "<group>"; };
+		4290B3DF2C2FF3E5003CF809 /* PasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		4290B3E52C2FFB5A003CF809 /* TextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		4290B3E72C2FFC25003CF809 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		42AC86D12C2EDB270044E86B /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		42AC86D42C2EE5110044E86B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		42AC86D72C2EEBD60044E86B /* SwitchUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchUserView.swift; sourceTree = "<group>"; };
+		42D734172C2EFC320060270F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		42D734192C2EFC6B0060270F /* CustomNavigationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationTitleView.swift; sourceTree = "<group>"; };
+		42D7341B2C2EFCC60060270F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		42D7341D2C2F00FE0060270F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7C51E5EEC56AC8DC86C58729 /* Pods-KT_Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KT_Task.debug.xcconfig"; path = "Target Support Files/Pods-KT_Task/Pods-KT_Task.debug.xcconfig"; sourceTree = "<group>"; };
+		F722C295B769DB9838F6367A /* Pods_KT_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KT_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		421289C82C2EB5E300CDE786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A258F76D3F7CA4738343110D /* Pods_KT_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421289D92C2EB5E400CDE786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421289E32C2EB5E400CDE786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0842AB4D52DA7B0C01B1492D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F722C295B769DB9838F6367A /* Pods_KT_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		421289C22C2EB5E300CDE786 = {
+			isa = PBXGroup;
+			children = (
+				421289CD2C2EB5E300CDE786 /* KT_Task */,
+				421289DF2C2EB5E400CDE786 /* KT_TaskTests */,
+				421289E92C2EB5E400CDE786 /* KT_TaskUITests */,
+				421289CC2C2EB5E300CDE786 /* Products */,
+				C2765E68560523C1D94646DD /* Pods */,
+				0842AB4D52DA7B0C01B1492D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		421289CC2C2EB5E300CDE786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421289CB2C2EB5E300CDE786 /* KT_Task.app */,
+				421289DC2C2EB5E400CDE786 /* KT_TaskTests.xctest */,
+				421289E62C2EB5E400CDE786 /* KT_TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		421289CD2C2EB5E300CDE786 /* KT_Task */ = {
+			isa = PBXGroup;
+			children = (
+				421289D42C2EB5E400CDE786 /* KT_Task.entitlements */,
+				421289CE2C2EB5E300CDE786 /* KT_TaskApp.swift */,
+				421289D22C2EB5E400CDE786 /* Assets.xcassets */,
+				4290B3D62C2FF2D8003CF809 /* App */,
+				421289F92C2EBC0500CDE786 /* View */,
+				42AC86D32C2EDB510044E86B /* ViewModel */,
+				42AC86D02C2EDB130044E86B /* Model */,
+				42AC86D62C2EEBBB0044E86B /* Utils */,
+				421289D52C2EB5E400CDE786 /* Preview Content */,
+			);
+			path = KT_Task;
+			sourceTree = "<group>";
+		};
+		421289D52C2EB5E400CDE786 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				421289D62C2EB5E400CDE786 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		421289DF2C2EB5E400CDE786 /* KT_TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				421289E02C2EB5E400CDE786 /* KT_TaskTests.swift */,
+			);
+			path = KT_TaskTests;
+			sourceTree = "<group>";
+		};
+		421289E92C2EB5E400CDE786 /* KT_TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				421289EA2C2EB5E400CDE786 /* KT_TaskUITests.swift */,
+				421289EC2C2EB5E400CDE786 /* KT_TaskUITestsLaunchTests.swift */,
+			);
+			path = KT_TaskUITests;
+			sourceTree = "<group>";
+		};
+		421289F92C2EBC0500CDE786 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42AC86D42C2EE5110044E86B /* LoginView.swift */,
+				421289FA2C2EBC0E00CDE786 /* LocationListView.swift */,
+				42D7341D2C2F00FE0060270F /* MapView.swift */,
+				4255D6752C32BF99007A6FAB /* SignupView1.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4290B3D62C2FF2D8003CF809 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4290B3D42C2F020A003CF809 /* AppDelegate.swift */,
+				42D734172C2EFC320060270F /* Constant.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		42AC86D02C2EDB130044E86B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42AC86D12C2EDB270044E86B /* LocationModel.swift */,
+				42D7341B2C2EFCC60060270F /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42AC86D32C2EDB510044E86B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				421289FC2C2EBDA100CDE786 /* LocationManager.swift */,
+				4290B3E72C2FFC25003CF809 /* UserManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		42AC86D62C2EEBBB0044E86B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4290B3E52C2FFB5A003CF809 /* TextFields.swift */,
+				4290B3DD2C2FF3CA003CF809 /* FieldErrorView.swift */,
+				4290B3DF2C2FF3E5003CF809 /* PasswordTextField.swift */,
+				4290B3DB2C2FF3A7003CF809 /* EmailTextField.swift */,
+				4290B3D92C2FF35D003CF809 /* PrimaryButton.swift */,
+				4290B3D72C2FF306003CF809 /* HeaderTextView.swift */,
+				42AC86D72C2EEBD60044E86B /* SwitchUserView.swift */,
+				42D734192C2EFC6B0060270F /* CustomNavigationTitleView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C2765E68560523C1D94646DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C51E5EEC56AC8DC86C58729 /* Pods-KT_Task.debug.xcconfig */,
+				0B02D6D890DF3E919455AA4C /* Pods-KT_Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		421289CA2C2EB5E300CDE786 /* KT_Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421289F02C2EB5E400CDE786 /* Build configuration list for PBXNativeTarget "KT_Task" */;
+			buildPhases = (
+				31524C0D0FE9327923B26ED6 /* [CP] Check Pods Manifest.lock */,
+				421289C72C2EB5E300CDE786 /* Sources */,
+				421289C82C2EB5E300CDE786 /* Frameworks */,
+				421289C92C2EB5E300CDE786 /* Resources */,
+				F060156434FBD509EDE2724F /* [CP] Embed Pods Frameworks */,
+				7E7CB6D6323CCCC501D80B69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KT_Task;
+			productName = KT_Task;
+			productReference = 421289CB2C2EB5E300CDE786 /* KT_Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		421289DB2C2EB5E400CDE786 /* KT_TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421289F32C2EB5E400CDE786 /* Build configuration list for PBXNativeTarget "KT_TaskTests" */;
+			buildPhases = (
+				421289D82C2EB5E400CDE786 /* Sources */,
+				421289D92C2EB5E400CDE786 /* Frameworks */,
+				421289DA2C2EB5E400CDE786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421289DE2C2EB5E400CDE786 /* PBXTargetDependency */,
+			);
+			name = KT_TaskTests;
+			productName = KT_TaskTests;
+			productReference = 421289DC2C2EB5E400CDE786 /* KT_TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		421289E52C2EB5E400CDE786 /* KT_TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421289F62C2EB5E400CDE786 /* Build configuration list for PBXNativeTarget "KT_TaskUITests" */;
+			buildPhases = (
+				421289E22C2EB5E400CDE786 /* Sources */,
+				421289E32C2EB5E400CDE786 /* Frameworks */,
+				421289E42C2EB5E400CDE786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421289E82C2EB5E400CDE786 /* PBXTargetDependency */,
+			);
+			name = KT_TaskUITests;
+			productName = KT_TaskUITests;
+			productReference = 421289E62C2EB5E400CDE786 /* KT_TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		421289C32C2EB5E300CDE786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					421289CA2C2EB5E300CDE786 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					421289DB2C2EB5E400CDE786 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 421289CA2C2EB5E300CDE786;
+					};
+					421289E52C2EB5E400CDE786 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 421289CA2C2EB5E300CDE786;
+					};
+				};
+			};
+			buildConfigurationList = 421289C62C2EB5E300CDE786 /* Build configuration list for PBXProject "KT_Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 421289C22C2EB5E300CDE786;
+			productRefGroup = 421289CC2C2EB5E300CDE786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				421289CA2C2EB5E300CDE786 /* KT_Task */,
+				421289DB2C2EB5E400CDE786 /* KT_TaskTests */,
+				421289E52C2EB5E400CDE786 /* KT_TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		421289C92C2EB5E300CDE786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421289D72C2EB5E400CDE786 /* Preview Assets.xcassets in Resources */,
+				421289D32C2EB5E400CDE786 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421289DA2C2EB5E400CDE786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421289E42C2EB5E400CDE786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31524C0D0FE9327923B26ED6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KT_Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E7CB6D6323CCCC501D80B69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KT_Task/Pods-KT_Task-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KT_Task/Pods-KT_Task-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KT_Task/Pods-KT_Task-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F060156434FBD509EDE2724F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KT_Task/Pods-KT_Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KT_Task/Pods-KT_Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KT_Task/Pods-KT_Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		421289C72C2EB5E300CDE786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4290B3D52C2F020A003CF809 /* AppDelegate.swift in Sources */,
+				4290B3E82C2FFC25003CF809 /* UserManager.swift in Sources */,
+				42D734182C2EFC320060270F /* Constant.swift in Sources */,
+				4290B3DE2C2FF3CA003CF809 /* FieldErrorView.swift in Sources */,
+				4290B3DC2C2FF3A7003CF809 /* EmailTextField.swift in Sources */,
+				4290B3E62C2FFB5A003CF809 /* TextFields.swift in Sources */,
+				421289FD2C2EBDA100CDE786 /* LocationManager.swift in Sources */,
+				42D7341A2C2EFC6B0060270F /* CustomNavigationTitleView.swift in Sources */,
+				421289FB2C2EBC0E00CDE786 /* LocationListView.swift in Sources */,
+				4290B3DA2C2FF35D003CF809 /* PrimaryButton.swift in Sources */,
+				42AC86D22C2EDB270044E86B /* LocationModel.swift in Sources */,
+				42AC86D82C2EEBD60044E86B /* SwitchUserView.swift in Sources */,
+				42AC86D52C2EE5110044E86B /* LoginView.swift in Sources */,
+				4290B3D82C2FF306003CF809 /* HeaderTextView.swift in Sources */,
+				42D7341E2C2F00FE0060270F /* MapView.swift in Sources */,
+				42D7341C2C2EFCC60060270F /* UserModel.swift in Sources */,
+				4290B3E02C2FF3E5003CF809 /* PasswordTextField.swift in Sources */,
+				4255D6762C32BF99007A6FAB /* SignupView1.swift in Sources */,
+				421289CF2C2EB5E300CDE786 /* KT_TaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421289D82C2EB5E400CDE786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421289E12C2EB5E400CDE786 /* KT_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421289E22C2EB5E400CDE786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421289ED2C2EB5E400CDE786 /* KT_TaskUITestsLaunchTests.swift in Sources */,
+				421289EB2C2EB5E400CDE786 /* KT_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		421289DE2C2EB5E400CDE786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421289CA2C2EB5E300CDE786 /* KT_Task */;
+			targetProxy = 421289DD2C2EB5E400CDE786 /* PBXContainerItemProxy */;
+		};
+		421289E82C2EB5E400CDE786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421289CA2C2EB5E300CDE786 /* KT_Task */;
+			targetProxy = 421289E72C2EB5E400CDE786 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		421289EE2C2EB5E400CDE786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		421289EF2C2EB5E400CDE786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		421289F12C2EB5E400CDE786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C51E5EEC56AC8DC86C58729 /* Pods-KT_Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KT_Task/KT_Task.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KT_Task/Preview Content\"";
+				DEVELOPMENT_TEAM = 8J9922SSYS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Description for requesting location even when the app is not in use.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Description for requesting location when the app is in use.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KT-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		421289F22C2EB5E400CDE786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B02D6D890DF3E919455AA4C /* Pods-KT_Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KT_Task/KT_Task.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KT_Task/Preview Content\"";
+				DEVELOPMENT_TEAM = 8J9922SSYS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Description for requesting location even when the app is not in use.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Description for requesting location when the app is in use.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KT-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		421289F42C2EB5E400CDE786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J9922SSYS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KT-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KT_Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KT_Task";
+			};
+			name = Debug;
+		};
+		421289F52C2EB5E400CDE786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J9922SSYS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KT-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KT_Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KT_Task";
+			};
+			name = Release;
+		};
+		421289F72C2EB5E400CDE786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J9922SSYS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KT-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KT_Task;
+			};
+			name = Debug;
+		};
+		421289F82C2EB5E400CDE786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J9922SSYS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KT-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KT_Task;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		421289C62C2EB5E300CDE786 /* Build configuration list for PBXProject "KT_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421289EE2C2EB5E400CDE786 /* Debug */,
+				421289EF2C2EB5E400CDE786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421289F02C2EB5E400CDE786 /* Build configuration list for PBXNativeTarget "KT_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421289F12C2EB5E400CDE786 /* Debug */,
+				421289F22C2EB5E400CDE786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421289F32C2EB5E400CDE786 /* Build configuration list for PBXNativeTarget "KT_TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421289F42C2EB5E400CDE786 /* Debug */,
+				421289F52C2EB5E400CDE786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421289F62C2EB5E400CDE786 /* Build configuration list for PBXNativeTarget "KT_TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421289F72C2EB5E400CDE786 /* Debug */,
+				421289F82C2EB5E400CDE786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 421289C32C2EB5E300CDE786 /* Project object */;
+}

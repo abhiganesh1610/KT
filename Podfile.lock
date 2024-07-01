@@ -1,0 +1,30 @@
+PODS:
+  - GoogleMaps (8.4.0):
+    - GoogleMaps/Maps (= 8.4.0)
+  - GoogleMaps/Base (8.4.0)
+  - GoogleMaps/Maps (8.4.0):
+    - GoogleMaps/Base
+  - Realm (10.52.0):
+    - Realm/Headers (= 10.52.0)
+  - Realm/Headers (10.52.0)
+  - RealmSwift (10.52.0):
+    - Realm (= 10.52.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  GoogleMaps: 8939898920281c649150e0af74aa291c60f2e77d
+  Realm: d1903aeb0b3585d810656c2ea04212bc1936ebc7
+  RealmSwift: f7a85c86e61c6da6f6ef334778af3d133b0edf28
+
+PODFILE CHECKSUM: ab91dfbe23ecb10209de4d6ac1e5324f4b673661
+
+COCOAPODS: 1.15.2
